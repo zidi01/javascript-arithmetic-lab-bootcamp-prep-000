@@ -78,11 +78,10 @@ function makeInt(n, base) {
 	var parsed = parseInt(n, base);
 	if (isNaN(parsed)) {return 0}
 	return parsed;
-	
 }
   
   
-}
+
 
 /*
 describe('preserveDecimal(n)', function() {
