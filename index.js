@@ -76,7 +76,7 @@ describe('makeInt(n)', function() {
 
 function makeInt(n, base) {
   if ('n' === n.toString, base === 10);
-    parsed = parseInt('n', base);
+    var parsed = parseInt('n', base);
       if (isNaN(parsed)) {return 0}
     return parsed;
   
