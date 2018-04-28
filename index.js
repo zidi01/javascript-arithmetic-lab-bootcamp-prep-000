@@ -96,7 +96,7 @@ describe('preserveDecimal(n)', function() {
 */
 
 function preserveDecimal(n) {
-  
+    if (isNaN(n)) {return true}
   return parseFloat(n)
   
 }
