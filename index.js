@@ -76,7 +76,7 @@ describe('makeInt(n)', function() {
 
 function makeInt(n, base) {
   var parsed = parseInt(n, 10);
-	if (isNaN(parsed)) {return 1}
+	if (isNaN(parsed)) {return NaN}
 	return parsed;
 }
   
@@ -96,7 +96,7 @@ describe('preserveDecimal(n)', function() {
 */
 
 function preserveDecimal(n) {
-    if (isNaN(n)) {return 1}
+    if (isNaN(n)) {return NaN}
   return parseFloat(n)
   
 }
